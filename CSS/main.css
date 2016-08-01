@@ -1,0 +1,188 @@
+/*div {
+  border: 1px solid red;
+}*/
+
+/*Padding needed for headers to sit below fixed Navbar*/
+body {
+  padding-top:51px;
+  font-family: 'Comfortaa', cursive !important;
+}
+
+/*Navbar Brand color and top margin*/
+.navbar-brand {
+  color:black !important;
+  margin-top:2px;
+}
+
+/*Navbar color & removal of border, border radius and margin */
+.navbar {
+  background-color:white;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+/*Navbar nav list and a links color*/
+.navbar-nav > li > a {
+  color:black !important;
+}
+
+/*Navbar Menu down background & border color*/
+.navbar-toggle {
+ border-color:white !important;
+}
+
+/*Navbar toggle hover color and when selected color*/
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color:white !important;
+}
+
+/*Navbar toggle line  color*/
+.icon-bar {
+  background-color:black !important;
+}
+
+/*Footer padding and responsive font size*/
+.navbar-footer {
+  padding-top: 15px;
+  font-size: 1.0em;
+}
+
+/*Padding only applied on small devices*/
+@media only screen and (min-width: 768px) {
+/*Side padding for Contact form*/
+.form-horizontal {
+  padding-left:50px;
+  padding-right:50px;
+  }}
+
+/*Contact form bottom margin, font color & background color*/
+.form-control {
+  margin-bottom:15px;
+  background-color:white !important;
+  color:black !important;
+}
+
+/*Placeholder font color*/
+.form-control::-webkit-input-placeholder {
+  color:#adadad !important;
+}
+
+/*Blockquote color, border size & color and margin*/
+blockquote {
+    color:white;
+    border-left: solid 10px !important;
+    border-color:white !important;
+    margin:10px !important;
+}
+
+/*Blockquote footer color*/
+blockquote > footer {
+  color:white !important;
+}
+
+/*Styling for Home id*/
+#Home {
+  height: 600px;
+  background: url(http://simonbarle.com/Work/RedwoodForest/RedwoodForest_02.png);
+  background-size: cover;
+}
+
+/*Styling for About id*/
+#About {
+ background: url(http://images.freecreatives.com/wp-content/uploads/2016/03/Green-Abstract-Grunge-Wallpaper.png);
+  background-size: cover;
+}
+
+/*Styling for Portfolio id*/
+#Portfolio {
+  background: #2F4F4F;
+  background-size: cover;
+}
+
+/*Styling for Contact id*/
+#Contact {
+  background: url(http://images.freeimages.com/images/previews/eb8/grunge-photos-grey-1142280.jpg);
+  background-size: cover;
+}
+
+/*Main title size and color*/
+#main-header {
+  color:white !important;
+  font-size:50px;
+}
+
+/*hard rule color*/
+hr {
+  border-color:#990000 !important;
+}
+
+/*h1 color*/
+h1 {
+  color:white !important;
+}
+
+/*h4 color*/
+h4 {
+  color:white !important;
+}
+
+/*p color*/
+p {
+  color:white;
+  font-size: 1.2em;
+}
+
+/*My logo padding*/
+.logo {
+  padding-top:5px;
+  padding-left:5px;
+}
+
+/*Background color of portfolio thumbnails*/
+.thumbnail {
+  background-color:#D0D0D0 !important;
+}
+
+/*Social Media background padding, color and fade(opacity 0,4)*/
+div #social-media {
+  background-color:rgba(153, 0, 0, 0.4);
+  padding-top: 20px;
+}
+
+/*Social Media icon responsive size and padding*/
+.fa {
+  color:white;
+  font-size: 8.0vw !important;
+  padding:4px;
+}
+
+/*Facebook icon color*/
+.fa-facebook:hover {
+  color: #3b5998;
+}
+
+/*Twitter icon color*/
+.fa-twitter:hover {
+  color: #32CCFE;
+}
+
+/*Google+ icon color*/
+.fa-google-plus:hover {
+  color: #dd4b39;
+}
+
+/*Instagram icon color*/
+.fa-instagram:hover {
+  color: #AEB5C5;
+}
+
+/*Linkedin icon color*/
+.fa-linkedin:hover {
+  color: #007bb5;
+}
+
+/*Github icon color*/
+.fa-github:hover {
+  color:#000000;
+}
