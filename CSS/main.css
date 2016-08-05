@@ -5,13 +5,7 @@
 /*Padding needed for headers to sit below fixed Navbar*/
 body {
   padding-top:51px;
-  font-family: 'Comfortaa', cursive !important;
-}
-
-/*Navbar Brand color and top margin*/
-.navbar-brand {
-  color:black !important;
-  margin-top:2px;
+  font-family: 'Comfortaa', cursive;
 }
 
 /*Navbar color & removal of border, border radius and margin */
@@ -59,26 +53,26 @@ body {
 /*Contact form bottom margin, font color & background color*/
 .form-control {
   margin-bottom:15px;
-  background-color:white !important;
-  color:black !important;
+  background-color:white;
+  color:black;
 }
 
 /*Placeholder font color*/
 .form-control::-webkit-input-placeholder {
-  color:#adadad !important;
+  color:#adadad ;
 }
 
 /*Blockquote color, border size & color and margin*/
 blockquote {
     color:white;
-    border-left: solid 10px !important;
-    border-color:white !important;
-    margin:10px !important;
+    border-left: solid 10px;
+    border-color: white;
+    margin: 10px;
 }
 
 /*Blockquote footer color*/
 blockquote > footer {
-  color:white !important;
+  color: white;
 }
 
 /*Styling for Home id*/
@@ -108,23 +102,23 @@ blockquote > footer {
 
 /*Main title size and color*/
 #main-header {
-  color:white !important;
-  font-size:50px;
+  color: white;
+  font-size: 50px;
 }
 
 /*hard rule color*/
 hr {
-  border-color:#990000 !important;
+  border-color: #990000;
 }
 
 /*h1 color*/
 h1 {
-  color:white !important;
+  color: white;
 }
 
 /*h4 color*/
 h4 {
-  color:white !important;
+  color:white;
 }
 
 /*p color*/
@@ -141,7 +135,7 @@ p {
 
 /*Background color of portfolio thumbnails*/
 .thumbnail {
-  background-color:#D0D0D0 !important;
+  background-color:#D0D0D0;
 }
 
 /*Social Media background padding, color and fade(opacity 0,4)*/
@@ -153,7 +147,7 @@ div #social-media {
 /*Social Media icon responsive size and padding*/
 .fa {
   color:white;
-  font-size: 8.0vw !important;
+  font-size: 8.0vw;
   padding:4px;
 }
 
