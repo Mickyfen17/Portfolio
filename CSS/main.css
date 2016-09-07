@@ -11,29 +11,29 @@ body {
 /*Navbar color & removal of border, border radius and margin */
 .navbar {
   background-color:white;
-  margin-bottom: 0px;
-  border-radius: 0px;
+  margin-bottom: 0;
+  border-radius: 0;
 }
 
 /*Navbar nav list and a links color*/
-.navbar-nav > li > a {
-  color:black !important;
+.navbar-default .navbar-nav>li>a {
+  color: black;
 }
 
 /*Navbar Menu down background & border color*/
-.navbar-toggle {
- border-color:white !important;
+.navbar-default .navbar-toggle {
+ border-color: white;
 }
 
 /*Navbar toggle hover color and when selected color*/
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color:white !important;
+    background-color:white;
 }
 
 /*Navbar toggle line  color*/
-.icon-bar {
-  background-color:black !important;
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
 }
 
 /*Footer padding and responsive font size*/
