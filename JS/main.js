@@ -45,3 +45,16 @@ if (typeof console === "undefined") {
     log: function() {}
   };
 }
+
+// Navbar transition on scroll
+$(window).on("scroll", function() {
+  if($(window).scrollTop() > 600) {
+    $(".navbar").addClass("nav_fade");
+    $(".navbar-default .navbar-nav>li>a").css("color", "white");
+    $(".navbar-default .navbar-toggle .icon-bar").css("background", "white");
+  } else {
+    $(".navbar").removeClass("nav_fade");
+    $(".navbar-default .navbar-nav>li>a").css("color", "black");
+    $(".navbar-default .navbar-toggle .icon-bar").css("background", "black");
+  }
+});

@@ -10,9 +10,18 @@ body {
 
 /*Navbar color & removal of border, border radius and margin */
 .navbar {
-  background-color:white;
+  background:white;
   margin-bottom: 0;
   border-radius: 0;
+  opacity: 1;
+  transition: opacity 2s, background 2s;
+  border-color: transparent;
+}
+/*Class that adds fade to navbar on scroll*/
+.nav_fade {
+  opacity: 0.8;
+  background: black;
+  color: white;
 }
 
 /*Navbar nav list and a links color*/
@@ -22,18 +31,22 @@ body {
 
 /*Navbar Menu down background & border color*/
 .navbar-default .navbar-toggle {
- border-color: white;
+ border-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: transparent;
 }
 
 /*Navbar toggle hover color and when selected color*/
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color:white;
+    background: transparent;
 }
 
 /*Navbar toggle line  color*/
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: black;
+  background: black;
 }
 
 /*Footer padding and responsive font size*/
@@ -53,7 +66,7 @@ body {
 /*Contact form bottom margin, font color & background color*/
 .form-control {
   margin-bottom:15px;
-  background-color:white;
+  background:white;
   color:black;
 }
 
@@ -135,7 +148,7 @@ p {
 
 /*Background color & styling of portfolio thumbnails*/
 .thumbnail {
-  background-color:#D0D0D0;
+  background:#D0D0D0;
   padding: 0;
   border: none;
   text-align: center;
@@ -154,11 +167,11 @@ p {
 .links i:hover {
   color: #000000;
 }
-
+/*Margin to space on lower divs within thumbnails*/
 div .links{
   margin-bottom: 8px;
 }
-
+/*HTML CSS JS etc image size*/
 .languages img {
   width: 20px;
   height: 20px;
@@ -167,7 +180,7 @@ div .links{
 
 /*Social Media background padding, color and fade(opacity 0,4)*/
 div #social-media {
-  background-color:rgba(153, 0, 0, 0.4);
+  background:rgba(153, 0, 0, 0.4);
   padding-top: 20px;
 }
 
