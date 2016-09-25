@@ -146,13 +146,23 @@ p {
 .thumbnail img:hover {
   opacity: 0.8;
 }
-
+/*Github and Codepen icon styling within thumbnails*/
 .links i{
   color: white;
   padding: 1px;
 }
 .links i:hover {
   color: #000000;
+}
+
+div .links{
+  margin-bottom: 8px;
+}
+
+.languages img {
+  width: 20px;
+  height: 20px;
+  padding: 1px;
 }
 
 /*Social Media background padding, color and fade(opacity 0,4)*/
