@@ -105,18 +105,21 @@ blockquote > footer {
 #Portfolio {
   background: #2F4F4F;
   background-size: cover;
+  padding-bottom: 35px;
 }
 
 /*Styling for Contact id*/
 #Contact {
   background: url(http://images.freeimages.com/images/previews/eb8/grunge-photos-grey-1142280.jpg);
   background-size: cover;
+  padding-bottom: 35px;
 }
 
 /*Main title size and color*/
 #main-header {
   color: white;
   font-size: 50px;
+  margin-top: 50px;
 }
 
 /*hard rule color*/
@@ -127,17 +130,20 @@ hr {
 /*h1 color*/
 h1 {
   color: white;
+  margin: 30px 0;
 }
 
 /*h4 color*/
-h4 {
+.caption h4 {
   color:white;
+  margin: 0 0 9px 0;
 }
 
-/*p color*/
-p {
+/*p color & margin*/
+#About p {
   color:white;
   font-size: 1.2em;
+  margin-bottom: 50px;
 }
 
 /*My logo padding*/
@@ -156,9 +162,7 @@ p {
 .thumbnail img {
   width: 100%;
 }
-.thumbnail img:hover {
-  opacity: 0.8;
-}
+
 /*Github and Codepen icon styling within thumbnails*/
 .links i{
   color: white;
@@ -169,7 +173,7 @@ p {
 }
 /*Margin to space on lower divs within thumbnails*/
 div .links{
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 }
 /*HTML CSS JS etc image size*/
 .languages img {
