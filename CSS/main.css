@@ -5,7 +5,7 @@
 /*Padding needed for headers to sit below fixed Navbar*/
 body {
   padding-top:51px;
-  font-family: 'Comfortaa', cursive;
+  font-family: Roboto, sans-serif;;
 }
 
 /*Navbar color & removal of border, border radius and margin */
