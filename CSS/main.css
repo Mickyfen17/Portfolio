@@ -91,26 +91,27 @@ blockquote > footer {
 /*Styling for Home id*/
 #Home {
   height: 600px;
-  background: url(http://simonbarle.com/Work/RedwoodForest/RedwoodForest_02.png);
-  background-size: cover;
+  background: #2c3e50; /* fallback for old browsers (Between Night and Day from uigradients)*/ 
+  background: -webkit-linear-gradient(to left, #2c3e50 , #3498db); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2c3e50 , #3498db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /*Styling for About id*/
 #About {
- background: url(http://images.freecreatives.com/wp-content/uploads/2016/03/Green-Abstract-Grunge-Wallpaper.png);
+ background: #2c3e50;
   background-size: cover;
 }
 
 /*Styling for Portfolio id*/
 #Portfolio {
-  background: #2F4F4F;
+  background: #2c3e50;
   background-size: cover;
   padding-bottom: 35px;
 }
 
 /*Styling for Contact id*/
 #Contact {
-  background: url(http://images.freeimages.com/images/previews/eb8/grunge-photos-grey-1142280.jpg);
+  background: #2c3e50;
   background-size: cover;
   padding-bottom: 35px;
 }
@@ -135,7 +136,7 @@ h1 {
 
 /*h4 color*/
 .caption h4 {
-  color:white;
+  color: #2c3e50;
   margin: 0 0 9px 0;
 }
 
@@ -154,7 +155,9 @@ h1 {
 
 /*Background color & styling of portfolio thumbnails*/
 .thumbnail {
-  background:#D0D0D0;
+  background: #ECE9E6; /* fallback for old browsers (Clouds from uigradients)*/
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
   padding: 0;
   border: none;
   text-align: center;
@@ -165,11 +168,11 @@ h1 {
 
 /*Github and Codepen icon styling within thumbnails*/
 .links i{
-  color: white;
+  color: #2c3e50;
   padding: 1px;
 }
 .links i:hover {
-  color: #000000;
+  color: #3498db;
 }
 /*Margin to space on lower divs within thumbnails*/
 div .links{
