@@ -123,11 +123,6 @@ blockquote > footer {
   margin-top: 50px;
 }
 
-/*hard rule color*/
-hr {
-  border-color: #990000;
-}
-
 /*h1 color*/
 h1 {
   color: white;
@@ -195,13 +190,13 @@ div .links{
 
 /*Social Media background padding, color and fade(opacity 0,4)*/
 div #social-media {
-  background:rgba(153, 0, 0, 0.4);
+  background: none;
   padding-top: 20px;
 }
 
 /*Social Media icon responsive size and padding*/
 #social-media .fa {
-  color:white;
+  color: #FFFFFF;
   font-size: 8.0vw;
   padding:4px;
 }
