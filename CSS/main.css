@@ -181,6 +181,14 @@ div .links{
   height: 20px;
   padding: 1px;
 }
+/*Hide languages when page is displayed and show languages on hover of caption div*/
+.languages {
+  opacity: 0;
+  transition: 0.5s linear;
+}
+.caption:hover .languages {
+  opacity: 1;
+}
 
 /*Social Media background padding, color and fade(opacity 0,4)*/
 div #social-media {
